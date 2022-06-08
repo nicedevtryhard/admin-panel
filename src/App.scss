@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  .app-title {
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  &:active {
+    transform: scale(0.9);
+  }
+}
+section {
+  max-width: 1024px;
+  margin: 0 auto;
+}

@@ -1,0 +1,51 @@
+.panel {
+  &_header {
+    background: #033c5e;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    h1 {
+      display: block;
+    }
+  }
+
+  &_user-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &_user-name {
+    font-size: 26px;
+  }
+  .logout_btn {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+  .logout_icon {
+    width: 50px;
+    height: 40px;
+  }
+  .create_btn {
+    display: block;
+    background-color: #0e81c4;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: auto;
+    padding: 5px;
+    color: #ffffff;
+    width: 100px;
+    cursor: pointer;
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+}

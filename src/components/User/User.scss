@@ -1,0 +1,17 @@
+.edit__btn {
+  background: rgb(4, 196, 20);
+}
+.delete_btn {
+  background: rgb(255, 0, 0);
+}
+.edit__btn,
+.delete_btn {
+  border-radius: 5px;
+  padding: 5px;
+  color: #ffffff;
+  width: 60px;
+  cursor: pointer;
+  &:active {
+    transform: scale(0.9);
+  }
+}

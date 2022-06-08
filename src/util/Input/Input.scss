@@ -1,0 +1,27 @@
+input {
+  border: none;
+  outline: none;
+  background: #0000001c;
+  margin: 0 5px 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: #ed3766;
+  max-width: 300px;
+  align-self: center;
+}
+::-webkit-input-placeholder {
+  color: #ffffff8f;
+  font-weight: 500;
+}
+:-ms-input-placeholder {
+  color: #ffffff;
+  font-weight: 500;
+}
+::-moz-placeholder {
+  color: #ffffff;
+  font-weight: 500;
+}
+:-moz-placeholder {
+  color: #ffffff;
+  font-weight: 500;
+}

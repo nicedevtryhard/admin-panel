@@ -1,0 +1,8 @@
+.back_btn {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  &:active {
+    transform: scale(0.9);
+  }
+}

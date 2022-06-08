@@ -1,0 +1,35 @@
+.users {
+  max-width: 1024px;
+  background: #033c5e;
+  margin: 20px auto;
+  border-radius: 5px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &_table {
+    margin: 0 auto;
+    tr {
+      background: #2b7aa8;
+      border: 1px solid #18628d;
+    }
+    td {
+      padding: 5px;
+    }
+  }
+  &_title {
+    padding: 10px;
+    font-size: 24px;
+  }
+  &_headers-item {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .users_table td {
+    font-size: 13px;
+    padding: 1px;
+  }
+}
